@@ -1,0 +1,13 @@
+{
+  "name": "bgp-shooter",
+  "version": "1.0.0",
+  "description": "BGP-Shooter — a late-80s asteroid-style game that trains BGP best-path selection.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "node --test \"tests/unit/**/*.test.js\"",
+    "test:perf": "node --test \"tests/perf/**/*.test.js\"",
+    "lint": "eslint src tests",
+    "format": "prettier --check ."
+  }
+}

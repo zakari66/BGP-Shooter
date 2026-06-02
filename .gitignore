@@ -1,0 +1,17 @@
+# Dependencies / build
+node_modules/
+dist/
+build/
+coverage/
+
+# Logs & env
+*.log
+.env*
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
